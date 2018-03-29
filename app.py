@@ -18,7 +18,7 @@ class GitHub:
     @staticmethod
     def _query(url, method, *args, **kwargs):
         res = getattr(requests, method)(
-            GitHub.graphql_url, *args,
+            url, *args,
             headers=GitHub._headers, **kwargs
         )
         try:
