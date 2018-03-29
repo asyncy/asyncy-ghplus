@@ -1,8 +1,11 @@
-# GitHub for Asyncy
+# GitHub common commands
 
 
 ```sh
-# usage.story
-gh = github get "/search/users?q={{email}} in:email"
-print gh.items.id
+# Get a list of users most programmed languages
+languages = ghplus languages stevepeak
+```
+
+```json
+["Python", "JavaScript", "Makefile", "CSS", "CoffeeScript", "PLpgSQL"]
 ```
