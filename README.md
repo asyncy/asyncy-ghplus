@@ -1,11 +1,14 @@
 # GitHub common commands
 
+[![Microservice.Guide](https://img.shields.io/badge/Microservice.Guide-ready-brightgreen.svg?style=for-the-badge)](https://microservice.guide)
 
-```sh
+### Asyncy Example
+
+```CoffeeScript
 # Get a list of users most programmed languages
-languages = ghplus languages stevepeak
+languages = ghplus languages handler:'foobar'
 ```
 
 ```json
-["Python", "JavaScript", "Makefile", "CSS", "CoffeeScript", "PLpgSQL"]
+["Python", "JavaScript", "PLpgSQL"]
 ```

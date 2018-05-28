@@ -1,0 +1,13 @@
+commands:
+  languages:
+    help: Get a users top languages
+    format: languages {handler}
+    arguments:
+      handler:
+        type: string
+        required: true
+
+environmentr:
+  api_token:
+  user_agent:
+    default: Undefined

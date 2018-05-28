@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import os
 import sys
@@ -11,8 +12,8 @@ class GitHub:
     rest_url = 'https://api.github.com'
     graphql_url = 'https://api.github.com/graphql'
     _headers = {
-        'Authorization': 'token %s' % os.getenv('API_TOKEN'),
-        'User-Agent': os.getenv('USER_AGENT', 'Asyncy')
+        'Authorization': f'token {os.getenv('API_TOKEN')}',
+        'User-Agent': os.getenv('USER_AGENT', 'Unknown')
     }
 
     @staticmethod
