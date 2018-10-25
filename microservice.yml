@@ -1,4 +1,5 @@
-commands:
+omg: 1
+actions:
   languages:
     help: Get a users top languages
     format: languages {handler}
@@ -7,7 +8,7 @@ commands:
         type: string
         required: true
 
-environmentr:
+environment:
   api_token:
   user_agent:
     default: Undefined
